@@ -21,10 +21,10 @@ export class AppComponent {
   //     { make: 'Porsche', model: 'Boxter', price: 72000 }
   // ];
 
-  public gridApi;
-  public gridColumnApi;
-  public columnDefs;
-  public sortingOrder;
+  gridApi;
+  gridColumnApi;
+  columnDefs;
+  sortingOrder;
 
   constructor(private http:HttpClient){ 
     this.columnDefs=[
