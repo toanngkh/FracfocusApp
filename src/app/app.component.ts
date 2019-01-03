@@ -122,7 +122,7 @@ export class AppComponent {
     this.gridApi = params.api;
     this.gridColumnApi = params.columnApi;
     this.http
-        .get("http://fracfocusapi.azurewebsites.net/")
+        .get("https://fracfocusapi.azurewebsites.net/")
         .subscribe(data => {
           params.api.setRowData(data);
         })
